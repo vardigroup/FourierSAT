@@ -4,6 +4,7 @@ The types of constraints include: CNF (-or), XOR, cardinality constraints and NA
 
 Paper: FourierSAT: A Fourier Expansion-Based Algebraic Framework for Solving Hybrid Boolean Constraints
 https://arxiv.org/abs/1912.01032
+(AAAI-2020)
 
 ----------------------------------------------------------------------------------------------------------------------
 *Required environment: python with Scipy
