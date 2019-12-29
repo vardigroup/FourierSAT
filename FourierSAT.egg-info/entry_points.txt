@@ -1,0 +1,3 @@
+[console_scripts]
+FourierSAT = FourierSAT.FourierSAT:main
+

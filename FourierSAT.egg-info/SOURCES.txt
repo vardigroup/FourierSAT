@@ -1,0 +1,12 @@
+README.md
+setup.py
+FourierSAT/FourierCoefficient.py
+FourierSAT/FourierSAT.py
+FourierSAT/__init__.py
+FourierSAT/boolean_formula.py
+FourierSAT.egg-info/PKG-INFO
+FourierSAT.egg-info/SOURCES.txt
+FourierSAT.egg-info/dependency_links.txt
+FourierSAT.egg-info/entry_points.txt
+FourierSAT.egg-info/requires.txt
+FourierSAT.egg-info/top_level.txt
