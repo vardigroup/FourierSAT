@@ -9,11 +9,11 @@ https://arxiv.org/abs/1912.01032
 If you have questions or thoughts regarding the tool or this work, please contact zhiwei@rice.edu.
 
 ----------------------------------------------------------------------------------------------------------------------
-*Required environment:
+Required environment
 -----------------------------------------
  python with Scipy
 
-*Basic usage:
+Basic usage
 ---------------
 python usage:
 
@@ -63,7 +63,7 @@ Not all equal: "n [literals] 0"
 
       eg: NAE(x_1,x_2,\neg x_3): "n 1 2 -3 0"
 
-Output: 
+Output
 -------
 	-s "solved"/"not-solved in timelimit seconds"+[minimum number of violated clauses]   
 	-v [solutions]/[the assignment with minimum number of violated clauses found]     
