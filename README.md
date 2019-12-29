@@ -7,11 +7,14 @@ https://arxiv.org/abs/1912.01032
 (AAAI-2020)
 
 If you have questions or thoughts regarding the tool or this work, please contact zhiwei@rice.edu.
+
 ----------------------------------------------------------------------------------------------------------------------
-*Required environment: python with Scipy
+*Required environment:
+-----------------------------------------
+ python with Scipy
 
 *Basic usage:
-
+---------------
 python usage:
 
 	python FourierSAT/FourierSAT.py [DIMACS filepath] --options
@@ -35,7 +38,8 @@ For example:
 
 	FourierSAT sample.cnf --timelimit 10 --tolerance 1 --cpus 2 --verbose 1
 
-*Extended DIMACS Format
+Input: Extended DIMACS Format
+-------------------------
 FourierSAT accepts an extended DIMACS format which can handle CNF, XOR, cardinality constraints and Not-all-equal clauses.
 
 CNF: "[literals] 0"
@@ -59,7 +63,7 @@ Not all equal: "n [literals] 0"
 
       eg: NAE(x_1,x_2,\neg x_3): "n 1 2 -3 0"
 
-*Output: 
-
+Output: 
+-------
 	-s "solved"/"not-solved in timelimit seconds"+[minimum number of violated clauses]   
 	-v [solutions]/[the assignment with minimum number of violated clauses found]     
