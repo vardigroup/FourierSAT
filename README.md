@@ -27,7 +27,8 @@ command line usage:
 -verbose: set it to 1 to output more information
 
 For example:
-python FourierSAT.py sample.cnf --timelimit 10 --tolerance 1 --cpus 2 --verbose 1
+
+	FourierSAT sample.cnf --timelimit 10 --tolerance 1 --cpus 2 --verbose 1
 
 *Extended DIMACS Format
 FourierSAT accepts an extended DIMACS format which can handle CNF, XOR, cardinality constraints and Not-all-equal clauses.
@@ -55,5 +56,5 @@ Not all equal: "n [literals] 0"
 
 *Output: 
 
--s "solved"/"not-solved in timelimit seconds"+[minimum number of violated clauses]   
--v [solutions]/[the assignment with minimum number of violated clauses found]     
+	-s "solved"/"not-solved in timelimit seconds"+[minimum number of violated clauses]   
+	-v [solutions]/[the assignment with minimum number of violated clauses found]     
