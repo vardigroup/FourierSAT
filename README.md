@@ -6,6 +6,7 @@ Paper: FourierSAT: A Fourier Expansion-Based Algebraic Framework for Solving Hyb
 https://arxiv.org/abs/1912.01032
 (AAAI-2020)
 
+If you have questions or thoughts regarding the tool or this work, please contact zhiwei@rice.edu.
 ----------------------------------------------------------------------------------------------------------------------
 *Required environment: python with Scipy
 
