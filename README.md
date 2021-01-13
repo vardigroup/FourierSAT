@@ -66,4 +66,5 @@ Not all equal: "n [literals] 0"
 Output
 -------
 	-s "solved"/"not-solved in timelimit seconds"+[minimum number of violated clauses]   
-	-v [solutions]/[the assignment with minimum number of violated clauses found]     
+	-v [solutions]/[the assignment with minimum number of violated clauses found]    
+	-o [the cost of the best solution found so far (the number of violated constraints)] (Only for MaxSAT mode)
