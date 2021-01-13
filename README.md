@@ -48,9 +48,13 @@ XOR: "x [literals] 0"
 Cardinality constraints: "d [k] [literals] 0"
       k>0 means greater or equal
       k<0 means less or equal
-	eg: x_1 + x_2 + x_4 + \neg x_5 >=2: "d 2 1 2 4 -5 0"
+      
+    eg: x_1 + x_2 + x_4 + \neg x_5 >=2: "d 2 1 2 4 -5 0"
+    
   Alternatively, you can use the pseudo-Boolean encoding:
-   "1 x1 + 1 x2 + 1 x4 - 1 x5 >= 1"
+  	
+	"1 x1 + 1 x2 + 1 x4 - 1 x5 >= 1"
+   
   if you want to include a global cardinality constraint (a constriant containing all variables and all the literals are positive), use a line "g [k]". (Note: no '0' at the end of the line!)
   
       eg: x_1+x_2+x_3+x_4+x_5 <= 2: "g -2"
