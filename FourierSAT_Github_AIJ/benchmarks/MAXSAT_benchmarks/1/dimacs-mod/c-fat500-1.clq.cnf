@@ -1,0 +1,58 @@
+c File:  c-fat500-1.clq
+c
+c Source: Panos Pardalos pardalos@math.ufl.edu
+c
+c Reference: P. Berman and A. Pelc, Distributed Fault Diagnosis for
+c            Multiprocessor Systems, Proceedings of the 20th Annual
+c            International Symposium on Fault-Tolerant Computing
+c            Newcastle, UK, 340-346 (1990)
+c
+p cnf 42 48
+1 21 0
+-1 -21 0
+1 41 0
+-1 -41 0
+2 22 0
+-2 -22 0
+2 42 0
+-2 -42 0
+3 23 0
+-3 -23 0
+4 24 0
+-4 -24 0
+5 25 0
+-5 -25 0
+6 26 0
+-6 -26 0
+7 27 0
+-7 -27 0
+8 28 0
+-8 -28 0
+9 29 0
+-9 -29 0
+10 30 0
+-10 -30 0
+11 31 0
+-11 -31 0
+12 32 0
+-12 -32 0
+13 33 0
+-13 -33 0
+14 34 0
+-14 -34 0
+15 35 0
+-15 -35 0
+16 36 0
+-16 -36 0
+17 37 0
+-17 -37 0
+18 38 0
+-18 -38 0
+19 39 0
+-19 -39 0
+20 40 0
+-20 -40 0
+21 41 0
+-21 -41 0
+22 42 0
+-22 -42 0
