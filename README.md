@@ -1,6 +1,6 @@
 FourierSAT is a versatile SAT/MaxSAT solver for hybrid Boolean constraints. 
 
-To achieve better performance, see GradSAT (https://github.com/vardigroup/GradSAT), an extension of FourierSAT. GradSAT is implemented in C++, where BDDs are used for accelerating gradient computations.**
+To achieve better performance, see GradSAT (https://github.com/vardigroup/GradSAT), an extension of FourierSAT. GradSAT is implemented in C++, where BDDs are used for accelerating gradient computations.
 
 The types of constraints include: CNF (-or), XOR, cardinality constraints and NAE (not all equal).
 
