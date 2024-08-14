@@ -8,6 +8,9 @@ Paper: FourierSAT: A Fourier Expansion-Based Algebraic Framework for Solving Hyb
 https://arxiv.org/abs/1912.01032
 (AAAI-2020)
 
+A comprehensive journal version: Solving hybrid Boolean constraints in continuous space via multilinear Fourier expansions
+https://akyrillidis.github.io/pubs/Journals/fourierSAT.pdf (AI Journal-2021)
+
 If you have questions or thoughts regarding the tool or this work, please contact zhiwei@rice.edu.
 
 ----------------------------------------------------------------------------------------------------------------------
