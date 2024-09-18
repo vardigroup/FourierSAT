@@ -1,27 +1,25 @@
-FourierSAT is a continuous-optimization-based SAT/MaxSAT solver for hybrid Boolean constraints (CNF, XOR, pseudo-Boolean) written in Python. 
+* FourierSAT is a continuous-optimization-based SAT/MaxSAT solver for hybrid Boolean constraints (CNF, XOR, cardinality constraints and not-all-equal) written in Python. 
 
-The types of constraints include CNF (-or), XOR, cardinality constraints and NAE (not all equal).
+	- FourierSAT: A Fourier Expansion-Based Algebraic Framework for Solving Hybrid Boolean Constraints
+	https://arxiv.org/abs/1912.01032
+	(AAAI-2020)
 
-Paper: FourierSAT: A Fourier Expansion-Based Algebraic Framework for Solving Hybrid Boolean Constraints
-https://arxiv.org/abs/1912.01032
-(AAAI-2020)
+	- A comprehensive journal version: 
+	Solving hybrid Boolean constraints in continuous space via multilinear Fourier expansions
+	https://akyrillidis.github.io/pubs/Journals/fourierSAT.pdf 
+	(AI Journal-2021)
 
-A comprehensive journal version: 
-Solving hybrid Boolean constraints in continuous space via multilinear Fourier expansions
-https://akyrillidis.github.io/pubs/Journals/fourierSAT.pdf 
-(AI Journal-2021)
+* To achieve better performance, see GradSAT (https://github.com/vardigroup/GradSAT), an extension of FourierSAT. GradSAT is implemented in C++, where BDDs are used for accelerating gradient computations.
 
-To achieve better performance, see GradSAT (https://github.com/vardigroup/GradSAT), an extension of FourierSAT. GradSAT is implemented in C++, where BDDs are used for accelerating gradient computations.
+	- On Continuous Local BDD-Based Search for Hybrid SAT Solving
+	https://arxiv.org/abs/2012.07983
+	(AAAI-2021)
 
-On Continuous Local BDD-Based Search for Hybrid SAT Solving
-https://arxiv.org/abs/2012.07983
-(AAAI-2021)
+* Also check our new work on equiping FourierSAT with GPUs and matrix multiplications with up to 100x accelerated gradient computation: 
 
-Also checkout our new work on equiping FourierSAT with GPUs and matrix multiplications with up to 100x accelerated gradient computation: 
-
-https://github.com/seeder-research/FastFourierSAT
-Massively Parallel Continuous Local Search for Hybrid SAT Solving on GPUs
-https://arxiv.org/abs/2308.15020
+	- Massively Parallel Continuous Local Search for Hybrid SAT Solving on GPUs
+	https://arxiv.org/abs/2308.15020
+        https://github.com/seeder-research/FastFourierSAT
 
 If you have questions or thoughts regarding the tool or this work, please contact zhiwei@rice.edu.
 
